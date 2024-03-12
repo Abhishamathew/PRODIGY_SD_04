@@ -1,0 +1,41 @@
+.sudoku-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .sudoku-grid {
+    border-collapse: collapse;
+    margin: auto;
+  }
+  
+  .sudoku-grid td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .sudoku-grid td:nth-child(3n), .sudoku-grid td:nth-child(3n-1) {
+    border-right: 2px solid #000;
+  }
+  
+  .sudoku-grid tr:nth-child(3n), .sudoku-grid tr:nth-child(3n-1) {
+    border-bottom: 2px solid #000;
+  }
+  
+  .sudoku-container button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sudoku-container button:hover {
+    background-color: #0056b3;
+  }
+  
